@@ -1,0 +1,33 @@
+<template>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>名称</th>
+                <th>描述</th>
+                <th>分类</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>001</th>
+                <th>快速排序</th>
+                <th>一种通过和中间数对比大小从而划分到左边或者右边的方式来不断缩小排序范围的分治策略</th>
+                <th>递归与分治策略</th>
+                <th><a href="#/QuickSort" target="_blank">打开</a></th>
+            </tr>
+        </tbody>
+    </table>
+</template>
+<style>
+    thead {
+        background-color: black;
+        color: white;
+    }
+
+    tr>* {
+        font-size: .14rem;
+        padding: 4px;
+    }
+</style>

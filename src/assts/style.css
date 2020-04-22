@@ -1,0 +1,30 @@
+.view-frame {
+    text-align: center;
+}
+
+.view-frame>h2 {
+    line-height: 4em;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.view-frame>p {
+    font-weight: 200;
+}
+
+.view-frame>p>em {
+    font-style: normal;
+    color: red;
+    font-weight: 800;
+}
+
+.view-frame>input {
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 7px 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+}

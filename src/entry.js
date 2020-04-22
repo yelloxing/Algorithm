@@ -5,6 +5,7 @@ import App from './App.iCrush';
 
 // 引入基础样式
 import '@yelloxing/normalize.css';
+import './assts/style.css';
 
 document.getElementById('root').innerHTML = "";
 

@@ -1,3 +1,23 @@
 <template>
-    <div>开发中</div>
+    <div class='view-frame'>
+        <h2>快速排序</h2>
+        <p>
+            <em>递归与分治策略</em>
+            一种通过和中间数对比大小从而划分到左边或者右边的方式来不断缩小排序范围的分治策略
+        </p>
+        <input type="button" value='开始' title='点击此处开始运行' @click='doit' />
+        <p>
+            实验数据：12, 2, 4, 65, 43, 67, 89, 4, 0, 445, 3, 3, 10
+        </p>
+
+    </div>
 </template>
+<script>
+    export default {
+        methods: {
+            doit() {
+                alert('开发中');
+            }
+        }
+    };
+</script>

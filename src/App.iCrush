@@ -1,5 +1,7 @@
 <template>
-    <component :is='page' />
+    <div>
+        <component :is='page' />
+    </div>
 </template>
 
 <script>
